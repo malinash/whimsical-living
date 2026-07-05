@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.example.client.mixin",
+	"package": "com.malinash.whimsicalliving.client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
-		"ExampleClientMixin"
+		"WhimsicalLivingClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

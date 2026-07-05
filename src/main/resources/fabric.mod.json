@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "whimsicalliving",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Whimsical Living",
+	"description": "A cozy decoration mod adding rugs, lamps, and beautiful furniture to Minecraft",
 	"authors": [
-		"Me!"
+		"Malin Asheim"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": "https://github.com/malinash/whimsical-living"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "MIT",
+	"icon": "assets/whimsicalliving/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.malinash.whimsicalliving.WhimsicalLiving"
 		],
 		"client": [
-			"com.example.client.ExampleModClient"
+			"com.malinash.whimsicalliving.client.WhimsicalLivingClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"whimsicalliving.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "whimsicalliving.client.mixins.json",
 			"environment": "client"
 		}
 	],
